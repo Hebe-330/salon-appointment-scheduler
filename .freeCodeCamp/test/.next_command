@@ -165,3 +165,13 @@ __vsc_prompt_cmd_original
 git init
 git status
 git add .
+git commit -m "salon appointment scheduler"
+ls --color=auto
+git remove remote
+git rm remote
+git remote add origin https://github.com/Hebe-330/salon-appointment-scheduler.git
+git remote set-url origin https://github.com/Hebe-330/salon-appointment-scheduler.git
+git status
+git push -u origin main
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git add .
